@@ -34,7 +34,7 @@ function App() {
       audioRef.current.play();
       const interval = setInterval(() => {
         setTimer(time => time + 1)
-      }, 100)
+      }, 1000)
 
       return () => clearInterval(interval)
     } else {
